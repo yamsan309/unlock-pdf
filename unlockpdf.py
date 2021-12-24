@@ -14,7 +14,7 @@ def unlock(input_path,output_path,password):
 
 if __name__ == "__main__":
     args = sys.argv
-    if len(args) != 3:
+    if len(args) != 4:
         print("usage: unlockodf.py (input) (output) (password)")
         exit()
     unlock(args[1],args[2],args[3])
